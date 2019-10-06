@@ -1,0 +1,316 @@
+@import './reset.scss';
+@import './variables.scss';
+@import './base.scss';
+
+@import './modules/typography.scss';
+
+@import 'utilities/mixins.scss';
+@import 'layout.scss';
+@import 'footer.scss';
+@import 'header.scss';
+
+@import './modules/logo.scss';
+@import './modules/landing-section.scss';
+
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+#qj-logo {
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+#logo-pic {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid $lightGray;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    // border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $mont;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 1rem;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  font-family: $mont;
+  font-size: 1.125rem;
+
+  @include mobile {
+    font-size: 1rem;
+  }
+
+  a {
+    color: $primaryColor;
+
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+  }
+}
+
+a {
+  main &{
+    @include primaryLink($primaryColor, $white, $primaryColorInteractive);
+  }
+}
+
+//
+// header and logo
+//
+#qj-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+#logo-pic {
+  opacity: 0;
+  visibility: hidden;
+}
+
+//
+// homepage
+//
+
+.landing-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+.svg-wrapper {
+  position: relative;
+  width: 50%;
+  height: 0;
+  padding-top: 34%;
+  margin: 0 auto;
+}
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em 0.8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+//
+// footer
+//
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0px;
+  padding-left: 0;
+  li {
+    display: inline-block;
+    padding: 3px 5px 0px;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  /*color: #d3d3d3;
+  fill: currentColor;*/
+  fill: $gray;
+  -webkit-transition: background-color 0.3s linear, fill 0.3s;
+  transition: background-color 0.3s linear, fill 0.3s;
+  border-radius: 5px;
+  padding: 0.3em;
+}
+.icon-facebook {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #3b5998;
+  }
+}
+.icon-twitter {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #4099ff;
+  }
+}
+.icon-feed2 {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #ff6600;
+  }
+}
+.icon-dribbble {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #c73b6f;
+  }
+}
+.icon-github2 {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #171515;
+  }
+}
+.icon-linkedin {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #0e76a8;
+  }
+}
+.icon-pinterest {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #c92228;
+  }
+}
+.icon-codepen-logo {
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: #000;
+  }
+}
+
+.highlighter-rouge {
+  font-family: $code;
+  font-size: 85%;
+  color: $gray;
+  pre {
+    white-space: pre-wrap;
+  }
+  & > .highlight {
+    padding: 1.5rem;
+  }
+  &:not([class*="lang"]) {
+    padding: 0 2px;
+  }
+}
