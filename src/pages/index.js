@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Contact from "../components/Contact"
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <div className="landing-section" id="section-3">
       Section 3
     </div>
+    <Contact />
   </Layout>
 )
 
