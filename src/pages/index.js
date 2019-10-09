@@ -10,6 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="landing-section" id="section-1">
       Section 1
+      <a href="#0" className="btn">RSVP</a>
     </div>
     <div className="landing-section" id="section-2">
       Section 2
