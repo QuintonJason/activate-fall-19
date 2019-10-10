@@ -15,7 +15,7 @@ html {
 body {
   margin: 0;
   background: $white;
-  font: 18px/1.4 $opensans;
+  font: 18px/1.4 $font-panton-regular;
   color: $darkGray;
 }
 
@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $mont;
+  font-family: $font-panton-bold;
   color: $darkerGray;
   font-weight: bold;
 

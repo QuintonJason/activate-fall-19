@@ -22,9 +22,9 @@ $facebookColor :#3b5998;
 $twitterColor :#4099ff;
 
 // Font stacks
-$mont: "Montserrat", sans-serif;
-$opensans: "Open Sans", sans-serif;
-$code: Consolas, monaco, monospace;
+$font-panton-regular: 'Panton W01 Regular', sans-serif;
+$font-panton-bold: 'Panton W01 Bold', sans-serif;
+$font-canoodle: 'Canoodle W05 Regular', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

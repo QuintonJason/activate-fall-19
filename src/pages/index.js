@@ -9,8 +9,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="landing-section" id="section-1">
-      Section 1
       <a href="#0" className="btn">RSVP</a>
+      <p className="panton-regular"> Panton W01 Regular </p>
+      <p className="panton-bold"> Panton W01 Bold </p>
+      <p className="canoodle"> Canoodle W05 Regular </p>
     </div>
     <div className="landing-section" id="section-2">
       Section 2
