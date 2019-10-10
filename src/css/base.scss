@@ -30,12 +30,12 @@ h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+  // margin: 1em 0 15px;
+  // padding: 0;
 
-  @include mobile {
-    line-height: 1.4;
-  }
+  // @include mobile {
+  //   line-height: 1.4;
+  // }
 }
 
 // TODO - REMOVE PX AND REPLACE WITH EM OR REM
@@ -61,10 +61,6 @@ h4,
 .h4 {
   font-size: 18px;
   color: $gray;
-}
-
-p {
-  margin: 15px 0;
 }
 
 a {
