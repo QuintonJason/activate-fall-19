@@ -9,13 +9,8 @@ import Cards from "../components/Cards"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <header className="">
-      <h2><span>activate</span> presents</h2>
-      <h1>Lightening Night</h1>
-      <time>December 10 @ 6:30 PM</time>
-    </header>
 
-    <div className="landing-section" id="section-1">
+    <div className="landing-section landing-section--details" id="section-1">
       <a href="#0" className="btn">RSVP</a>
       <p className="panton-regular"> Panton W01 Regular </p>
       <p className="panton-bold"> Panton W01 Bold </p>

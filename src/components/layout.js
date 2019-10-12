@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
-import Footer from "./Footer"
 
 import "../css/global.scss"
 
@@ -31,7 +30,6 @@ const Layout = ({ children }) => {
       <main className="l-main">
         {children}
       </main>
-      <Footer />
     </>
   )
 }

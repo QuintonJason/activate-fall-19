@@ -21,7 +21,7 @@ const Contact = (props) => (
                         <label className="t-hidden" htmlFor="message">Talk Title</label>
                         <input className="contact__form-input" type="text" name="title" id="title" placeholder="Talk Title" />
                     </div>
-                    <input className="btn contact__button" type="submit" value="Send Message" />
+                    <input className="btn contact__button" type="submit" value="Send" />
                 </form>
             </section>
         </div>

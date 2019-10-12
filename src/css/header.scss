@@ -1,20 +1,45 @@
 // Q TODO - move the l-header class to the layouts file
 .l-header {
   @include center;
-  padding: 1.25rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid $midGray;
+  flex-direction: column;
+  place-items: center;
+  place-content: center;
 }
 
-.header-logo{
-	width: 70px;
-}
-.header-wrapper{
-	border-bottom: 1px solid #eee;
+.header__subhead {
+  font-size: 48px;
+  line-height: .5;
+
+  @include phone {
+    margin-bottom: 26px;
+    font-size: 32px;
+  }
 }
 
-.header__logo {
-  width: 70px;
+.header__display {
+  margin-bottom: 14px;
+  font-family: $font-canoodle;
+  font-size: 193px;
+  line-height: normal;
+  text-align: center;
+
+  @include phone {
+    margin-bottom: 24px;
+    font-size: 100px;
+    line-height: .8;
+  }
+}
+
+.header__time {
+  font-size: 49px;
+  text-align: center;
+
+  @include phone {
+    font-size: 31px;
+  }
+}
+
+.header__time-bold {
+  font-family: $font-panton-bold;
 }
