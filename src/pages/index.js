@@ -19,7 +19,7 @@ const IndexPage = () => (
       <Cards />
     </div>
 
-    <div className="landing-section" id="section-3">
+    <div className="landing-section landing-section--contact" id="section-3">
       <Contact />
     </div>
   </Layout>

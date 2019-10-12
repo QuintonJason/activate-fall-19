@@ -2,6 +2,14 @@
 
 .header-wrapper {
   background-color: $primaryBackgroundColorDark;
+  background-image: url(./img/header-bg-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include mobile {
+
+  }
 }
 
 .l-header {

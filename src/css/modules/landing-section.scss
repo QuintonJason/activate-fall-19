@@ -11,11 +11,24 @@
 .landing-section--details {
   background-image: url(./img/details-lightening-bolt.svg);
   background-repeat: no-repeat;
-  background-size: 203px;
+  background-size: 16%;
   background-position: 10% 30px;
 
   @include mobile {
     background-size: 153px;
     background-position: 22% 54px;
+  }
+}
+
+.landing-section--contact {
+  background-color: $colorBackgroundColorDark-1;
+  background-image: url(./img/footer-bg-image.svg);
+  background-repeat: no-repeat;
+  background-position: -114px 120px;
+  // background-size: 16%;
+  // background-position: 10% 30px;
+
+  @include desktop {
+    background-position-y: 0;
   }
 }
