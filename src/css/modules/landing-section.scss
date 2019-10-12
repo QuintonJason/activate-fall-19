@@ -25,8 +25,7 @@
   background-image: url(./img/footer-bg-image.svg);
   background-repeat: no-repeat;
   background-position: -114px 120px;
-  // background-size: 16%;
-  // background-position: 10% 30px;
+  background-size: cover;
 
   @include desktop {
     background-position-y: bottom;
