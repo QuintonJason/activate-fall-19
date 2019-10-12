@@ -29,6 +29,6 @@
   // background-position: 10% 30px;
 
   @include desktop {
-    background-position-y: 0;
+    background-position-y: bottom;
   }
 }
