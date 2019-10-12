@@ -5,16 +5,26 @@
   flex-direction: column;
   place-items: center;
   place-content: center;
+
+  @include mobile {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .header__subhead {
+  font-family: $font-panton-regular;
   font-size: 48px;
   line-height: .5;
 
-  @include phone {
+  @include mobile {
     margin-bottom: 26px;
     font-size: 32px;
   }
+}
+
+.header__subhead--bold {
+  font-family: $font-panton-bold;
 }
 
 .header__display {
@@ -24,7 +34,7 @@
   line-height: normal;
   text-align: center;
 
-  @include phone {
+  @include mobile {
     margin-bottom: 24px;
     font-size: 100px;
     line-height: .8;
@@ -35,7 +45,7 @@
   font-size: 49px;
   text-align: center;
 
-  @include phone {
+  @include mobile {
     font-size: 31px;
   }
 }

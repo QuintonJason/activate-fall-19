@@ -1,0 +1,78 @@
+.details {
+
+}
+
+.details-wrapper {
+  display: flex;
+  align-items: flex-start;
+
+  @include phone {
+    padding: 93px 30px;
+    flex-direction: column;
+  }
+}
+
+.details__headline {
+  padding-right: 86px;
+  flex-basis: 50%;
+  font-family: $font-canoodle;
+  font-size: 120px;
+  line-height: 81.5%;
+  letter-spacing: .02em;
+  text-align: right;
+  color: $primaryColor;
+
+  @include phone {
+    margin-bottom: 8px;
+    padding-right: 0;
+    font-size: 60px;
+    text-align: left;
+  }
+}
+
+.details__info {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+
+  @include phone {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+.details__description,
+.details__time,
+.details__location {
+  font-size: 24px;
+  line-height: 138%;
+  letter-spacing: .01em;
+
+  @include phone {
+    font-size: 18px;
+    line-height: 130%;
+  }
+}
+
+.details__description {
+  margin-bottom: 33px;
+  font-family: $font-panton-regular;
+
+  @include phone {
+    margin-bottom: 22px;
+  }
+}
+
+.details__time,
+.details__location {
+  font-family: $font-panton-bold;
+}
+
+.details__location {
+  margin-bottom: 49px;
+
+  @include phone {
+    margin-bottom: 46px;
+  }
+}

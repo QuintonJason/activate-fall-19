@@ -11,13 +11,17 @@ $color-background-card: #106CA9;
 	}
 }
 .cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(388px, 1fr));
-	gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+	gap: 11px;
 
-	@include phone {
-    grid-template-columns: 1fr;
-		gap: 11px;
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+		gap: 18px;
 	}
 }
 
@@ -29,7 +33,7 @@ $color-background-card: #106CA9;
 .card {
 	padding: 1.125rem 1.625rem 1.625rem;
 	background-color: $color-background-card;
-	border-radius: 8px;
+	border-radius: 10px;
 
 	@include mobile {
 		padding: 1.125rem 1.3125rem 1.1875rem;

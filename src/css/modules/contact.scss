@@ -1,6 +1,7 @@
 .contact {
   padding: 92px 60px 260px;
   @include center();
+  max-width: 710px;
 
   @include phone {
     margin-bottom: 26px;
