@@ -1,0 +1,54 @@
+.contact {
+  @include center();
+
+  @include phone {
+    padding-top: 60px;
+    margin-bottom: 26px;
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+}
+
+.contact__headline {
+  text-align: center;
+  font-family: $font-canoodle;
+
+  @include phone {
+    margin-bottom: 23px;
+  }
+}
+
+.contact__description {
+  margin-bottom: 48px;
+
+  text-align: center;
+
+  @include phone {
+    margin-bottom: 55px;
+  }
+}
+
+.contact__button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  @include phone {
+    // margin-top: 24px;
+  }
+}
+
+.contact__form-field {
+  margin-bottom: 23px;
+
+  &:last-of-type {
+    margin-bottom: 42px;
+  }
+}
+
+.contact__form-input {
+  background: none;
+  border: none;
+  border-bottom: 4px solid $primaryBorderColor;
+  padding: 12px 6px;
+}

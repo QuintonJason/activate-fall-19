@@ -1,19 +1,39 @@
 $color-background-card: #106CA9;
 
+.cards-wrapper {
+  padding-top: 95px;
+  padding-bottom: 95px;
+
+  @include center();
+
+  @include phone {
+    padding: 60px 34px;
+	}
+}
 .cards {
-	display: grid;	
+	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(388px, 1fr));
 	gap: 20px;
+
+	@include phone {
+    grid-template-columns: 1fr;
+		gap: 11px;
+	}
 }
 
 .cards__headline {
-	font-family: $font-canoodle;
+  font-family: $font-canoodle;
+  text-align: center;
 }
 
 .card {
 	padding: 1.125rem 1.625rem 1.625rem;
 	background-color: $color-background-card;
 	border-radius: 8px;
+
+	@include mobile {
+		padding: 1.125rem 1.3125rem 1.1875rem;
+	}
 }
 
 .card__title {

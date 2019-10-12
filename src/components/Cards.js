@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Cards = () => (
-  <div>
-  	<h2 className="cards__headline">Lineup</h2>
+  <div className="cards-wrapper">
+  	<h2 className="t-section-header cards__headline">Lineup</h2>
     <div className="cards">
       <div className="card">
         <h3 className="card__title">Talk Topic Blah Blah</h3>

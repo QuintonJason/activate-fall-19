@@ -4,12 +4,17 @@
   max-width: 207px;
   width: 100%;
   display: inline-flex;
+  font-family: $font-panton-bold;
   border-radius: 50px;
   border: none;
   place-content: center;
   text-decoration: none;
   color: $primaryColor;
   background-color: $primaryBackgroundColor;
+
+  @include phone {
+    max-width: 159px;
+  }
 
   &:hover,
   &:focus {

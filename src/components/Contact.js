@@ -3,23 +3,25 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section>
+            <section className="contact">
+                <h2 className="t-section-header contact__headline">Submit a talk</h2>
+                <p className="t-body contact__description">Share the latest technology, product, or discipline you have been working with. Each talk is 10 minutes including Q&A.</p>
                 <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
-                    <div className="field half first">
+                    <div className="contact__form-field half first">
                         <label className="t-hidden" htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Name" />
+                        <input className="contact__form-input" type="text" name="name" id="name" placeholder="Name" />
                     </div>
-                    <div className="field half">
+                    <div className="contact__form-field half">
                         <label className="t-hidden" htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="Email"/>
+                        <input className="contact__form-input" type="text" name="email" id="email" placeholder="Email"/>
                     </div>
-                    <div className="field">
+                    <div className="contact__form-field">
                         <label className="t-hidden" htmlFor="message">Talk Title</label>
-                        <input type="text" name="title" id="title" placeholder="Talk Title" />
+                        <input className="contact__form-input" type="text" name="title" id="title" placeholder="Talk Title" />
                     </div>
-                    <input className="btn" type="submit" value="Send Message" />
+                    <input className="btn contact__button" type="submit" value="Send Message" />
                 </form>
             </section>
         </div>
