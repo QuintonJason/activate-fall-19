@@ -5,6 +5,7 @@
   flex-direction: column;
   place-items: center;
   place-content: center;
+  background-color: $primaryBackgroundColorDark;
 
   @include mobile {
     padding-left: 30px;
@@ -16,6 +17,7 @@
   font-family: $font-panton-regular;
   font-size: 48px;
   line-height: .5;
+  color: $white;
 
   @include mobile {
     margin-bottom: 26px;
@@ -33,6 +35,7 @@
   font-size: 193px;
   line-height: normal;
   text-align: center;
+  color: $white;
 
   @include mobile {
     margin-bottom: 24px;
@@ -44,6 +47,7 @@
 .header__time {
   font-size: 49px;
   text-align: center;
+  color: $secondaryColor;
 
   @include mobile {
     font-size: 31px;

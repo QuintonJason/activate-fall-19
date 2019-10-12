@@ -2,6 +2,7 @@
   padding: 92px 60px 260px;
   @include center();
   max-width: 710px;
+  background-color: $colorBackgroundColorDark-1;
 
   @include phone {
     margin-bottom: 26px;
@@ -13,6 +14,7 @@
   margin-bottom: 14px;
   text-align: center;
   font-family: $font-canoodle;
+  color: $white;
 
   @include phone {
     margin-bottom: 23px;
@@ -22,6 +24,7 @@
 .contact__description {
   padding-top: 92px;
   margin-bottom: 95px;
+  color: $white;
 
   text-align: center;
 
@@ -49,8 +52,22 @@
 }
 
 .contact__form-input {
+  padding: 12px 6px;
+  font-family: $font-panton-regular;
   background: none;
   border: none;
   border-bottom: 4px solid $primaryBorderColor;
-  padding: 12px 6px;
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $white;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $white;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+    color: $white;
+  }
 }
