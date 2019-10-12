@@ -7,3 +7,15 @@
 .landing-section--cards {
 	background-color: $secondaryBackgroundColor;
 }
+
+.landing-section--details {
+  background-image: url(./img/details-lightening-bolt.svg);
+  background-repeat: no-repeat;
+  background-size: 203px;
+  background-position: 10% 30px;
+
+  @include mobile {
+    background-size: 153px;
+    background-position: 22% 54px;
+  }
+}
