@@ -1,8 +1,12 @@
+.contact-wrapper {
+  width: 100%;
+  background-color: $colorBackgroundColorDark-1;
+}
+
 .contact {
   padding: 92px 60px 260px;
   @include center();
   max-width: 710px;
-  background-color: $colorBackgroundColorDark-1;
 
   @include phone {
     margin-bottom: 26px;

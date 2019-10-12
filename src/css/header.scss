@@ -1,11 +1,15 @@
 // Q TODO - move the l-header class to the layouts file
+
+.header-wrapper {
+  background-color: $primaryBackgroundColorDark;
+}
+
 .l-header {
   @include center;
   display: flex;
   flex-direction: column;
   place-items: center;
   place-content: center;
-  background-color: $primaryBackgroundColorDark;
 
   @include mobile {
     padding-left: 30px;
