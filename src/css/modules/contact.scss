@@ -57,20 +57,26 @@
 .contact__form-input {
   padding: 12px 6px;
   font-family: $font-panton-regular;
+  color: white;
   background: none;
   border: none;
   border-bottom: 4px solid $primaryBorderColor;
 
   &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: $white;
+    color: $primaryContactFormPlaceholderBlue;
     opacity: 1; /* Firefox */
   }
 
   &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: $white;
+    color: $primaryContactFormPlaceholderBlue;
   }
 
   &::-ms-input-placeholder { /* Microsoft Edge */
-    color: $white;
+    color: $primaryContactFormPlaceholderBlue;
+  }
+
+  &:focus {
+    background-color: $colorBackgroundColorDark-2;
+    outline: none;
   }
 }

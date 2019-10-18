@@ -19,14 +19,13 @@
     max-width: 159px;
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: $primaryColorInteractive;
-    background-color: $primaryBackgroundColorInteractive;
+    background-color: $primaryBackgroundColorHover;
     cursor: pointer;
   }
 
   &:focus {
-
+    background-color: $primaryBackgroundColorFocus;
   }
 }
