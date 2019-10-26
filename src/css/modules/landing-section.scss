@@ -1,5 +1,5 @@
 .landing-section {
-  min-height: 100vh;
+  min-height: 68vh;
   display: flex;
   align-items: center;
 }
@@ -11,8 +11,8 @@
 .landing-section--details {
   background-image: url(./img/details-lightening-bolt.svg);
   background-repeat: no-repeat;
-  background-size: 16%;
-  background-position: 10% 30px;
+  background-size: 10%;
+  background-position: 8% 72px;
 
   @include mobile {
     background-size: 153px;
