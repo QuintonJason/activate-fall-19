@@ -24,10 +24,10 @@
   background-color: $colorBackgroundColorDark-1;
   background-image: url(./img/footer-bg-image.svg);
   background-repeat: no-repeat;
-  background-position: -114px 120px;
+  background-position: left 120px;
   background-size: cover;
 
   @include desktop {
-    background-position-y: bottom;
+    background-position-y: 79px;
   }
 }
