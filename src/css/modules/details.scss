@@ -1,5 +1,5 @@
 .details {
-
+  @include center();
 }
 
 .details-wrapper {
@@ -19,7 +19,6 @@
   font-size: 120px;
   line-height: 81.5%;
   letter-spacing: .02em;
-  text-align: right;
   color: $primaryColor;
 
   @include phone {
@@ -68,6 +67,10 @@
 .details__time,
 .details__location {
   font-family: $font-panton-bold;
+}
+
+.details__time {
+  display: block;
 }
 
 .details__location {

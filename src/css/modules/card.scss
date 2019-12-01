@@ -3,6 +3,7 @@ $color-background-card: #106CA9;
 .cards-wrapper {
   padding-top: 95px;
   padding-bottom: 95px;
+  position: relative;
 
   @include center();
 
@@ -32,12 +33,39 @@ $color-background-card: #106CA9;
 }
 
 .card {
+  position: relative;
 	padding: 1.125rem 1.625rem 1.625rem;
 	background-color: $color-background-card;
 	border-radius: 10px;
 
 	@include mobile {
 		padding: 1.125rem 1.3125rem 1.1875rem;
+	}
+}
+
+.card__temp-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $tempCardBackgroundColor;
+  border-radius: 10px;
+}
+
+.card__temp-headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  font-family: $font-panton-bold;
+  font-size: 72px;
+  letter-spacing: 0.02em;
+  color: $primaryBorderColor;
+  transform: translate(-50%, -50%) rotate(13.42deg);
+
+  @include mobile {
+		font-size: 42px;
 	}
 }
 

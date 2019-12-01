@@ -8,6 +8,7 @@ const Cards = props => {
 
   return (
     <div className="cards-wrapper">
+      <span className="card__temp-headline">Coming Soon</span>
       <h2 className="t-section-header cards__headline">Lineup</h2>
       <div className="cards">{speakerCards}</div>
     </div>

@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Contact from "../components/Contact"
 import Cards from "../components/Cards"
 import Details from "../components/Details"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,10 @@ const IndexPage = () => (
 
     <div className="landing-section landing-section--contact" id="section-3">
       <Contact />
+    </div>
+
+    <div className="landing-section--footer" id="section-4">
+      <Footer />
     </div>
   </Layout>
 )
