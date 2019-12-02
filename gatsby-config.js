@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Lightning Night – One Night. Ten Talks. January 14 at 6:30 PM`,
+    description: `In a series of compact 10-minute talks, you will learn how local leaders are using new technologies & preparing for the future of tech`,
+    author: `@activ8conf`,
   },
   plugins: [
     `gatsby-plugin-sass`,

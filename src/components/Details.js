@@ -10,7 +10,7 @@ const Details = () => (
       </div>
       <div className="details__info">
         <p className="details__description">Lightning Night is a new event for the tech community, to help connect local professionals who want to learn, ask questions, network, or even collaborate. In a series of compact 10-minute talks, you will learn how local leaders are using new technologies, preparing for the future of tech, and getting ahead with their projects. Join us now to reserve your spot!</p>
-        <a href="#0" className="btn details__button">RSVP</a>
+        <a href="https://www.eventbrite.com/e/lightning-night-tickets-84553454659" className="btn details__button" target="_blank" rel="noreferrer nofollow">RSVP</a>
       </div>
     </div>
   </section>

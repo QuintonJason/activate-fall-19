@@ -32,7 +32,8 @@
   }
 
   @include desktop {
-    padding-right: 86px
+    margin-bottom: 54px;
+    padding-right: 86px;
   }
 }
 
@@ -78,12 +79,24 @@
 
 .details__time {
   display: block;
+  font-family: $font-panton-bold;
+
+  @include desktop {
+    margin-bottom: 6px;
+    padding-left: 6px;
+    font-size: 28px;
+  }
 }
 
 .details__location {
   margin-bottom: 49px;
+  font-family: $font-panton-regular;
 
   @include phone {
     margin-bottom: 46px;
+  }
+
+  @include desktop  {
+    padding-left: 6px;
   }
 }
