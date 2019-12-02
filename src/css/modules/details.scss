@@ -24,8 +24,8 @@
   letter-spacing: .02em;
   color: $primaryColor;
 
-  @include mobile {
-    margin-bottom: 8px;
+  @include not-desktop {
+    margin-bottom: 25px;
     padding-right: 0;
     font-size: 60px;
     text-align: left;
@@ -43,7 +43,8 @@
   flex-direction: column;
   flex-basis: 50%;
 
-  @include phone {
+  @include not-desktop {
+    padding-top: 24px;
     padding-left: 3px;
     padding-right: 3px;
   }
@@ -67,8 +68,8 @@
   margin-bottom: 33px;
   font-family: $font-panton-regular;
 
-  @include phone {
-    margin-bottom: 22px;
+  @include not-desktop {
+    margin-bottom: 35px;
   }
 }
 
