@@ -39,12 +39,12 @@ $color-background-card: #106CA9;
 	border-radius: 10px;
 
 	@include mobile {
-		padding: 1.125rem 1.3125rem 1.1875rem;
-  }
+    padding: 1.125rem 1.3125rem 1.1875rem;
 
-  // to be removed when content comes in
-  &:nth-child(n + 5) {
-    display: none;
+    // to be removed when content comes in
+    &:nth-child(n + 5) {
+      display: none;
+    }
   }
 }
 

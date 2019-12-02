@@ -17,7 +17,7 @@ const Contact = (props) => (
                   <input className="contact__form-input" type="text" name="email" id="email" placeholder="Email"/>
               </div>
               <div className="contact__form-field">
-                  <label className="t-hidden" htmlFor="message">Talk Title</label>
+                  <label className="t-hidden" htmlFor="title">Talk Title</label>
                   <input className="contact__form-input" type="text" name="title" id="title" placeholder="Talk Title" />
               </div>
               <input className="btn contact__button" type="submit" value="Send" />
