@@ -3,7 +3,6 @@ $color-background-card: #106CA9;
 .cards-wrapper {
   padding-top: 95px;
   padding-bottom: 95px;
-  position: relative;
 
   @include center();
 
@@ -12,6 +11,7 @@ $color-background-card: #106CA9;
 	}
 }
 .cards {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
 	gap: 11px;
@@ -40,7 +40,12 @@ $color-background-card: #106CA9;
 
 	@include mobile {
 		padding: 1.125rem 1.3125rem 1.1875rem;
-	}
+  }
+
+  // to be removed when content comes in
+  &:nth-child(n + 5) {
+    display: none;
+  }
 }
 
 .card__temp-overlay {
@@ -61,10 +66,13 @@ $color-background-card: #106CA9;
   font-family: $font-panton-bold;
   font-size: 72px;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
   color: $primaryBorderColor;
   transform: translate(-50%, -50%) rotate(13.42deg);
 
   @include mobile {
+    width: 100%;
+    text-align: center;
 		font-size: 42px;
 	}
 }

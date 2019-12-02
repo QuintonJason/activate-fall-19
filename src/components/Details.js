@@ -5,7 +5,7 @@ const Details = () => (
     <div className="details-wrapper">
       <div>
         <h2 className="details__headline">One night. <br />Ten Talks.</h2>
-        <time className="details__time" datetime="2020-01-06T18:30:00">January 6 @ 6:30-8:30 PM</time>
+        <time className="details__time" datetime="2020-01-14T18:30:00">January 14 @ 6:30-8:30 PM</time>
         <span className="details__location">Location TBD</span>
       </div>
       <div className="details__info">

@@ -47,6 +47,11 @@ $font-canoodle: 'Canoodle W05 Regular', sans-serif;
 		@content;
 	}
 }
+@mixin not-desktop {
+	@media screen and (max-width: 959px) {
+		@content;
+	}
+}
 @mixin tablet {
 	@media screen and (min-width: 641px) and (max-width: 959px) {
 		@content;

@@ -1,19 +1,22 @@
 .details {
   @include center();
+
+  @include phone {
+    padding: 0;
+  }
 }
 
 .details-wrapper {
   display: flex;
   align-items: flex-start;
 
-  @include phone {
+  @include mobile {
     padding: 93px 30px;
     flex-direction: column;
   }
 }
 
 .details__headline {
-  padding-right: 86px;
   flex-basis: 50%;
   font-family: $font-canoodle;
   font-size: 120px;
@@ -21,11 +24,15 @@
   letter-spacing: .02em;
   color: $primaryColor;
 
-  @include phone {
+  @include mobile {
     margin-bottom: 8px;
     padding-right: 0;
     font-size: 60px;
     text-align: left;
+  }
+
+  @include desktop {
+    padding-right: 86px
   }
 }
 
@@ -49,7 +56,7 @@
   letter-spacing: .01em;
   color: $primaryColor;
 
-  @include phone {
+  @include mobile {
     font-size: 18px;
     line-height: 130%;
   }

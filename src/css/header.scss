@@ -32,7 +32,7 @@
   color: $white;
 
   @include mobile {
-    margin-bottom: 26px;
+    margin-bottom: 22px;
     font-size: 32px;
   }
 }
@@ -50,7 +50,9 @@
   color: $white;
 
   @include mobile {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 100px;
     line-height: .8;
   }
@@ -65,4 +67,9 @@
 
 .header__time-bold {
   font-family: $font-panton-bold;
+
+  @include mobile {
+    display: block;
+    line-height: .6;
+  }
 }
