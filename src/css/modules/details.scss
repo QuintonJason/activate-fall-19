@@ -16,6 +16,12 @@
   }
 }
 
+.details__heading {
+  @include not-desktop {
+    padding-top: 24px;
+  }
+}
+
 .details__headline {
   flex-basis: 50%;
   font-family: $font-canoodle;
