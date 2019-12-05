@@ -1,4 +1,5 @@
 import React from 'react'
+import pdf from "../images/activate-lightning-night.pdf"
 
 const Footer = () => (
   <footer className="l-footer">
@@ -10,7 +11,7 @@ const Footer = () => (
         </a>
       </div>
       <div className="footer-copyright__link-wrapper">
-        <a className="btn btn--secondary footer-copyright__link">Be A Sponsor</a>
+        <a href={pdf} className="btn btn--secondary footer-copyright__link" target="_blank" rel="noreferrer nofollow">Be A Sponsor</a>
       </div>
     </div>
     <p className="footer-copyright">Brought to you by <a href="https://activateconf.com" className="footer-copyright__link" target="_blank" rel="nofollow noreferrer">Activate Conference</a></p>

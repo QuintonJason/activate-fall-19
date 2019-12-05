@@ -14,6 +14,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "UA-108426327-2",
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
