@@ -10,7 +10,7 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Lightning Night – One Night. Ten Talks. January 14 at 6:30 PM" />
 
     <div className="landing-section landing-section--details" id="section-1">
       <Details />
