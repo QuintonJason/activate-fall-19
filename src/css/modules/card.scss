@@ -63,12 +63,13 @@ $color-background-card: #106CA9;
 }
 
 .card__title {
+  margin-bottom: 8px;
 	color: $white;
-	font-family: $font-panton-bold;
+  font-family: $font-panton-bold;
+  line-height: 1.25;
 }
 
 .card__speaker {
-  margin-bottom: 8px;
 	color: $white;
 	font-family: $font-panton-regular;
 	line-height: 1.1;
