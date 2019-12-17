@@ -1,47 +1,56 @@
 [
   {
     "id": "1",
-    "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "speakerName": "Eric Romero",
+    "talkTitle": "Open Data in City-Parish Government",
+    "company": "The City of Baton Rouge"
   },
   {
     "id": "2",
-    "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "speakerName": "Benita Zazueta",
+    "talkTitle": "Quantum Computing for the 21st Century",
+    "company": "IBM"
   },
   {
     "id": "3",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   },
   {
     "id": "4",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   },
   {
     "id": "5",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   },
   {
     "id": "6",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   },
   {
     "id": "7",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   },
   {
     "id": "8",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   },
   {
     "id": "9",
     "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title"
+    "talkTitle": "Talk Title",
+    "company": ""
   }
 ]

@@ -36,13 +36,13 @@ $color-background-card: #106CA9;
   position: relative;
 	padding: 1.125rem 1.625rem 1.625rem;
 	background-color: $color-background-card;
-	border-radius: 10px;
+  border-radius: 10px;
 
 	@include mobile {
     padding: 1.125rem 1.3125rem 1.1875rem;
 
     // to be removed when content comes in
-    &:nth-child(n + 5) {
+    &:nth-child(n+5) {
       display: none;
     }
   }
@@ -56,25 +56,10 @@ $color-background-card: #106CA9;
   height: 100%;
   background: $tempCardBackgroundColor;
   border-radius: 10px;
-}
 
-.card__temp-headline {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  font-family: $font-panton-bold;
-  font-size: 72px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: $primaryBorderColor;
-  transform: translate(-50%, -50%) rotate(13.42deg);
-
-  @include mobile {
-    width: 100%;
-    text-align: center;
-		font-size: 42px;
-	}
+  .card:nth-child(-n + 2) & {
+    visibility: hidden;
+  }
 }
 
 .card__title {
