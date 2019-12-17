@@ -10,8 +10,9 @@
   margin-bottom: 37px;
   display: flex;
 
-  @include mobile {
-
+  @include tablet {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   @include not-desktop {

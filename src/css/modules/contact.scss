@@ -1,5 +1,10 @@
 .contact-wrapper {
   width: 100%;
+
+  @include tablet {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .contact {

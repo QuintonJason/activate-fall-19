@@ -8,7 +8,12 @@ $color-background-card: #106CA9;
 
   @include phone {
     padding: 60px 34px;
-	}
+  }
+
+  @include tablet {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 .cards {
   position: relative;

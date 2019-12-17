@@ -14,9 +14,16 @@
     padding: 93px 30px;
     flex-direction: column;
   }
+
+  @include tablet {
+    padding: 30px;
+  }
 }
 
 .details__heading {
+  @include tablet {
+    padding-right: 18px;
+  }
   @include not-desktop {
     padding-top: 24px;
   }
