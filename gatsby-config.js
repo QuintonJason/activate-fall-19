@@ -18,6 +18,8 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "UA-108426327-2",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
       }
     },
     `gatsby-transformer-sharp`,
