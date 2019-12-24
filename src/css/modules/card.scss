@@ -62,7 +62,7 @@ $color-background-card: #106CA9;
   background: $tempCardBackgroundColor;
   border-radius: 10px;
 
-  .card:nth-child(-n + 2) & {
+  .card:nth-child(-n + 4) & {
     visibility: hidden;
   }
 }
