@@ -15,12 +15,10 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        id: "UA-108426327-2",
-        includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
-      }
+        trackingId: 'UA-108426327-2',
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
