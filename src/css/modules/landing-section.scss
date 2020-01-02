@@ -32,6 +32,19 @@
   }
 }
 
+.landing-section--code-of-conduct {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @include center();
+
+  & > p:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+}
+
 .landing-section--footer {
   background-color: $primaryBorderColor;
 }
