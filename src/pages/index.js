@@ -23,10 +23,6 @@ const IndexPage = () => (
     <div className="landing-section landing-section--contact" id="section-3">
       <Contact />
     </div>
-
-    <div className="landing-section--footer" id="section-4">
-      <Footer />
-    </div>
   </Layout>
 )
 
