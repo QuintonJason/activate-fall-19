@@ -49,8 +49,14 @@
   },
   {
     "id": "9",
-    "speakerName": "Speaker Name",
-    "talkTitle": "Talk Title",
-    "company": ""
+    "speakerName": "Jay Bienvenu",
+    "talkTitle": "Documentation: A Habit and a Culture",
+    "company": "NetShapers"
+  },
+  {
+    "id": "10",
+    "speakerName": "Sia Karamalegos",
+    "talkTitle": "Modern JavaScript for Modern Browsers.",
+    "company": "Clio + Calliope"
   }
 ]
